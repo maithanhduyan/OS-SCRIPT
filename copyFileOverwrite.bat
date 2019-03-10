@@ -1,0 +1,8 @@
+@ECHO OFF
+:: THIS FILE COPY AND OVERWRITE NOT PROMT
+TITLE COPY FILE
+
+xcopy "C:\Users\tiach\OneDrive\Desktop\LSG.sql" "D:\Backup\" /K /D /H /Y
+
+ECHO COPY FILE TO BACKUP FOLDER
+EXIT
